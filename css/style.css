@@ -1,0 +1,569 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  background-color: #ec715f;
+  height: 70px;
+  width: 100%;
+}
+
+.container {
+  width: 1024px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.image {
+  height: 70px;
+  float: left;
+}
+
+.nav-list {
+  float: right;
+  line-height: 70px;
+}
+
+.nav-list-item {
+  font-size: 16px;
+  color: #fafafa;
+  padding: 0 30px;
+  display: inline-block;
+}
+
+.main-visual {
+  height: 650px;
+  width: 100%;
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-visual-content {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.main-visual-content h1 {
+  font-size: 64px;
+  color: #fafafa;
+  padding-top: 200px;
+}
+
+.main-visual-content p {
+  font-size: 20px;
+  color: #fafafa;
+  padding-top: 10px;
+}
+
+.Portfolio {
+  background-color: #eceff1;
+}
+
+.Portfolio-container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Portfolio-container-h1 {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+}
+
+.Portfolio-container-h1::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+}
+
+.Portfolio-container-p {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.Portfolio-box {
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.production {
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.box1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.production:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.box2 {
+  background-image: url(img/websuku.png);
+}
+
+.box3 {
+  background-image: url(img/write.jpg);
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.box4 {
+  background-image: url(img/webcamp.png);
+}
+
+.box5 {
+  background-image: url(img/talk.jpg);
+}
+
+.box6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.Feature {
+  background-size: cover;
+  background-position: center;
+}
+
+.Feature-container {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Feature-container-h1 {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+}
+
+.Feature-container-h1::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+}
+
+.Feature-container-p {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px;
+}
+
+.Feature-social-container {
+  width: 980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.Feature-social {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.Feature-social:last-child {
+  margin-right: 0;
+}
+
+.Feature-social i {
+  display: inline-block;
+  font-size: 60px;
+}
+
+.Feature-social h2 {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.Feature-social p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.Profile {
+  background-color: #eceff1;
+}
+
+.Profile-container {
+  margin: 0 auto;
+  width: 1024px
+}
+
+.Profile-container h2 {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+
+.Profile-container h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+}
+
+.Profile-container-p {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.Profile-under {
+  padding: 30px 0 90px 0;
+}
+
+.Profile-under-left {
+  width: 50%;
+  float: left;
+}
+
+.left-image {
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.Profile-under-right {
+  width: 50%;
+  float: left;
+}
+
+.Profile-under-right-h3-1 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.Profile-under-right-p-1 {
+  font-size: 16px;
+}
+
+.Profile-under-right-h3-2 {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.Profile-under-right-p-2 {
+  font-size: 16px;
+}
+
+.Contact-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.Contact-container-h2 {
+  padding-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+
+.Contact-container-h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #ec715f;
+  margin: 8px auto 0 auto;
+}
+
+.Contact-container-p {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+}
+
+.Contact-under {
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.Contact-under-left {
+  width: 50%;
+  float: left;
+}
+
+.Contact-under-left-container {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.Contact-under-left-h2-1 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.Contact-under-left P {
+  text-decoration: underline;
+  color: #212121;
+  font-size: 16px;
+}
+
+.Contact-under-left-h2-2 {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.Contact-under-right {
+  width: 50%;
+  float: right;
+}
+
+.Contact-under-right-container {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.Contact-under-right-container h2 {
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.Contact-under-right-container i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.Contact-under-right-container i:last-child {
+  margin-right: 0;
+}
+
+footer {
+  background-color: #ec715f;
+  height: 60px;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
+  line-height: 60px;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 50px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .image {
+    float: none;
+    height: 50px;
+  }
+
+  .menu-box {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    border: 1px solid #fafafa;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .list-bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #fafafa;
+  }
+
+  .list-bar:first-child {
+    margin-top: 10px;
+  }
+
+  .nav-list {
+    float: none;
+  }
+
+  .nav-list-item {
+    display: none;
+    float: none;
+    width: 100%;
+    line-height: 50%;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+  }
+
+  .nav-list-item:last-child {
+    border: none;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+  }
+
+  .main-visual-content {
+    width: 90%;
+  }
+
+  .main-visual-content h1 {
+    font-size: 40px;
+  }
+
+  .main-visual-content p {
+    font-size: 18px;
+  }
+
+  .Portfolio {
+    padding: 0 5%;
+  }
+
+  .Portfolio-container {
+    width: 90%;
+  }
+
+  .Portfolio-box {
+    width: 300px;
+  }
+
+  .production {
+    float: none;
+  }
+
+  .sp-none {
+    display: none;
+  }
+
+  .Feature {
+    padding: 0 5%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Feature-container {
+    width: 90%;
+  }
+
+  .Feature-social-container {
+    width: 320px;
+  }
+
+  .Feature-social {
+    float: none;
+    margin-top: 10px;
+  }
+
+  .Feature-social:first-child {
+    margin-top: 0;
+  }
+
+  .Profile {
+    padding: 0 5%;
+  }
+
+  .Profile-container {
+    width: 90%;
+  }
+
+  .Profile-under {
+    text-align: center;
+  }
+
+  .Profile-under-left {
+    float: none;
+    width: 100%;
+  }
+
+  .Profile-under-right {
+    float: none;
+    width: 100%;
+  }
+
+  .Profile-under-right-h3-1 {
+    margin-top: 20px;
+  }
+
+  .Contact {
+    padding: 0 5px;
+  }
+
+  .Contact-container {
+    width: 90%;
+  }
+
+  .Contact-under {
+    width: 100%;
+    text-align: center;
+  }
+
+  .Contact-under-left {
+    float: none;
+    width: 100%;
+  }
+
+  .Contact-under-left-container {
+    width: 100%;
+  }
+
+  .Contact-under-left-h2-1 {
+    margin-top: 20px;
+  }
+
+  .Contact-under-right {
+    float: none;
+    width: 100%;
+  }
+
+  .Contact-under-right-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Contact-under-right-container h2 {
+    margin-top: 20px;
+  }
+
+  .Contact-under-right-container i {
+    font-size: 50px;
+    margin-right: 8px;
+  }
+
+
+
+
+
+
+}
